@@ -10,7 +10,6 @@ public class TypicalSolver {
 	    int lines = in.nextInt();
 	    System.out.println("Enter entire crytogram: ");
 	    String whole = "";
-	    in.close();
 	    for (int num = 0; num <= lines; num++) {
 	    	whole += in.nextLine() + " ";
 	    }
@@ -29,6 +28,6 @@ public class TypicalSolver {
 	    	Data.data(big.get(c));
 	    }
 	    
-	    
+	   in.close(); 
 	}
 }
