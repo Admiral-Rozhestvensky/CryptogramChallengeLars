@@ -15,7 +15,7 @@ public class TypicalSolver {
 	    }
 	    ArrayList<String> big = new ArrayList<String>();
 	    String tempIn = "";
-	    for (int c = 0; c < whole.length(); c++) {
+	    for (int c = 1; c < whole.length(); c++) {
 	    	if (whole.charAt(c) != ' ') {
 	    		tempIn += whole.charAt(c);
 	    	} else {
